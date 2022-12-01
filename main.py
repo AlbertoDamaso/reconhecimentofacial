@@ -1,6 +1,6 @@
 import cv2
 import face_recognition as fr
-from flask import Flask, make_response, jsonify, request
+from flask import Flask, request
 import base64
 import io
 import PIL.Image as Image
